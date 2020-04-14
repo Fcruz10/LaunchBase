@@ -23,42 +23,47 @@ The repository is separated by week, within each week the files are created with
 <br />
 <h1 align=center> Week </h1>
 <p align="center">
-  <a href="#-week 01"> Week 01 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-week 02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#week01"> Week 01 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   ...
 </p>
 <br />
- <h1 align=center> Week 01 </h1>
+ <h1 align=center id="week01"> Week 01 </h1>
 
 <p align="center">
-  <a href="#-Challenge 1-1">Challenge 1-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Challenge 1-2">Challenge 1-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Challenge 1-3">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Challenge 1-4">Challenge 1-4</a>
+  <a href="#Challenge1-1">Challenge 1-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge1-2">Challenge 1-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge1-3">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge1-4">Challenge 1-4</a>
 </p>
 
 <!--
 <p align="center">
-  <a href="#-Challenge 2-1">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Challenge 2-2">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Challenge 2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge2-1">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge2-2">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 -->
 
 ## Intoduction to web Development - [Path](https://github.com/##)
 
+<a id="Challenge1-1"></a>
 - Challenge 1-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
     - Calculate IMC - [Resolution](https://github.com/##)
     - Calculate retirement - [Resolution](https://github.com/##)
-
+    
+<a id="Challenge1-2"></a>
 - Challenge 1-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
     - Store Company Data - [Resolução](https://github.com/##)
     - Store Programmer Data - [Resolução](https://github.com/##)
-
+    
+<a id="Challenge1-3"></a>
 - Challenge 1-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
     - Users and Tech - [Resolution](https://github.com/##)
     - Search Tech - [Resolution](https://github.com/##)
     - Income and Expenses - [Resolution](https://github.com/##)
+    
+<a id="Challenge1-4"></a>    
 - Challenge 1-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
     - Bank transactions - [Resolution](https://github.com/##)
  <!--
@@ -73,7 +78,7 @@ The repository is separated by week, within each week the files are created with
 - Challenge 2-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
     - Create Content and Modal Page - [Resolution](https://github.com/##)
     
-<h1 align=center> Week 02 </h1>
+<h1 align=center id="week02"> Week 02 </h1>
 -->
 
 ### Update
