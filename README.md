@@ -49,24 +49,24 @@ The repository is separated by week, within each week the files are created with
 
 <a id="Challenge1-1"></a>
 - Challenge 1-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
-    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-1-calculateImc.js)
-    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-1-calculateRetirement.js)
+    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateImc.js)
+    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateRetirement.js)
     
 <a id="Challenge1-2"></a>
 - Challenge 1-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
-    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-2-storeCompanyData.js)
-    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-2-storeProgrammerData.js)
-    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-2-allin1.js)
+    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeCompanyData.js)
+    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeProgrammerData.js)
+    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-allin1.js)
     
 <a id="Challenge1-3"></a>
 - Challenge 1-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-3-usersAndTech.js)
-    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-3-searchTech.js)
-    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-3-incomeAndExpenses.js)
+    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-usersAndTech.js)
+    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-searchTech.js)
+    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-incomeAndExpenses.js)
     
 <a id="Challenge1-4"></a>    
 - Challenge 1-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
-    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-4-bankTransactions.js)
+    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-4/01-4-bankTransactions.js)
  <!--
 ## Starting on Front-end - [Path](https://github.com/##)
 
