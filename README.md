@@ -24,7 +24,7 @@ The repository is separated by week, within each week the files are created with
 <h1 align=center> Week </h1>
 <p align="center">
   <a href="#week01"> Week 01 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <!-- <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
   ...
 </p>
 <br />
@@ -49,32 +49,36 @@ The repository is separated by week, within each week the files are created with
 
 <a id="Challenge1-1"></a>
 - Challenge 1-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
-    - Calculate IMC - [Resolution](https://github.com/##)
-    - Calculate retirement - [Resolution](https://github.com/##)
+    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-1-calculateImc.js)
+    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-1-calculateRetirement.js)
     
 <a id="Challenge1-2"></a>
 - Challenge 1-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
-    - Store Company Data - [Resolução](https://github.com/##)
-    - Store Programmer Data - [Resolução](https://github.com/##)
+    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-2-storeCompanyData.js)
+    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-2-storeProgrammerData.js)
+    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-2-allin1.js)
     
 <a id="Challenge1-3"></a>
 - Challenge 1-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-    - Users and Tech - [Resolution](https://github.com/##)
-    - Search Tech - [Resolution](https://github.com/##)
-    - Income and Expenses - [Resolution](https://github.com/##)
+    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-3-usersAndTech.js)
+    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-3-searchTech.js)
+    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-3-incomeAndExpenses.js)
     
 <a id="Challenge1-4"></a>    
 - Challenge 1-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
-    - Bank transactions - [Resolution](https://github.com/##)
+    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/01-4-bankTransactions.js)
  <!--
 ## Starting on Front-end - [Path](https://github.com/##)
 
+<a id="Challenge2-1"></a>
 - Challenge 2-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
     - Add Favicon and Stylize - [Resolution](https://github.com/##)
 
+<a id="Challenge2-2"></a>
 - Challenge 2-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
     - Create page about Rocketseat - [Resolution](https://github.com/##)
     
+<a id="Challenge2-3"></a>
 - Challenge 2-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
     - Create Content and Modal Page - [Resolution](https://github.com/##)
     
