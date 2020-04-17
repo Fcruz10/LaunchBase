@@ -8,6 +8,10 @@
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
   </a>
   
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fcruz10/LaunchBase">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Fcruz10/LaunchBase">
+  
   <a href="https://github.com/Fcruz10/LaunchBase/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Fcruz10/LaunchBase">
   </a>
