@@ -1,0 +1,104 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap';
+
+:root{
+    --color-yellow: #FDD935;
+    --color-light-yellow: #fde98c;
+}
+/*Remove default settings (user agent stylesheet)*/
+* {
+    margin: 0;
+    /*Extra*/
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: var(--color-yellow);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 30px;
+    background: var(--color-light-yellow);
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    margin: 30px;
+    /*Extra*/
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Mouser hover*/
+.links a:hover {
+    color: #555555e8;
+    transition: color 200ms;
+}
+
+/*-- about.hmtl Styling specific--*/
+
+.wrapper {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.wrapper img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid var(--color-light-yellow);
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.wrapper h1 a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60px;
+    color: white;
+    text-shadow: 0.05em 0.05em #7159c1
+}
+
+.wrapper h2 {
+    margin: 32px auto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 80%;
+}
+
+
+.wrapper p {
+    max-width: 70%;
+    margin: 32px auto;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.wrapper div {
+    max-width: 60%;
+    margin: 0 auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper .stack {
+    color: white;
+    max-width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: auto auto;
+    text-shadow: 0.07em 0.05em rgba(63, 61, 61, 0.678)
+
+}
+
+#links-footer {
+    margin-bottom: 10px;
+}
