@@ -37,13 +37,12 @@ The repository is separated by week, within each week the files are created with
   <a href="#Challenge1-4">Challenge 1-4</a>
 </p>
 
-<!--
 <p align="center">
   <a href="#Challenge2-1">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge2-2">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    ...
+  <!--<a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
 </p>
--->
 
 ## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Challenges1)
 
@@ -67,21 +66,21 @@ The repository is separated by week, within each week the files are created with
 <a id="Challenge1-4"></a>    
 - Challenge 1-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
     - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-4/01-4-bankTransactions.js)
- <!--
-## Starting on Front-end - [Path](https://github.com/##)
+ 
+## Starting on Front-end - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end)
 
 <a id="Challenge2-1"></a>
 - Challenge 2-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
-    - Add Favicon and Stylize - [Resolution](https://github.com/##)
+    - Add Favicon and Stylize - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-1)
 
 <a id="Challenge2-2"></a>
 - Challenge 2-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
-    - Create page about Rocketseat - [Resolution](https://github.com/##)
-    
+    - Create page about Rocketseat - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-2)
+  <!--  
 <a id="Challenge2-3"></a>
 - Challenge 2-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
     - Create Content and Modal Page - [Resolution](https://github.com/##)
-    
+ 
 <h1 align=center id="week02"> Week 02 </h1>
 -->
 
