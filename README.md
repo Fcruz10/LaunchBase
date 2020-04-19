@@ -88,7 +88,7 @@ The repository is separated by week, within each week the files are created with
     
 <a id="Challenge2-3"></a>
 - Challenge 2-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
-    - Create Content and Modal Page - [Resolution](https://github.com/##)
+    - Create Content and Modal Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-3)
  
  <!--
 ## Building Foodfy - [Path](https://github.com/Fcruz10/#)
