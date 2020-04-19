@@ -44,9 +44,14 @@ The repository is separated by week, within each week the files are created with
 <p align="center">
   <a href="#Challenge2-1">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge2-2">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    ...
-  <!--<a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;-->
+  <a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
+<!--
+<h4 align="center">
+  <a href="#BuildingFoodfy">Building Foodfy</a>
+</h4>
+-->
+
 
 ## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Challenges1)
 
@@ -80,16 +85,23 @@ The repository is separated by week, within each week the files are created with
 <a id="Challenge2-2"></a>
 - Challenge 2-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
     - Create page about Rocketseat - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-2)
-  <!--  
+    
 <a id="Challenge2-3"></a>
 - Challenge 2-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
     - Create Content and Modal Page - [Resolution](https://github.com/##)
  
+ <!--
+## Building Foodfy - [Path](https://github.com/Fcruz10/#)
+
+<a id="BuildingFoodfy"></a>
+- Script for site - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-foodfy.md)
+    - Foodfy site - [Resolution](https://github.com/Fcruz10/#)
+
 <h1 align=center id="week02"> Week 02 </h1>
 -->
 
 ### Update
-With each update this file will be updated along with the other links.
+With each update this file will be updated with a possible resolution along with the links for the scripts.
 
 ---
 
