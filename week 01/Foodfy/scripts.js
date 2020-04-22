@@ -2,7 +2,7 @@ const modalOverlay = document.querySelector('.modal-overlay');
 const cards = document.querySelectorAll('.card');
 
 for (let card of cards) {
-    card.addEventListener('click', function(){
+    card.addEventListener('click', function () {
         let cardImg = card.getElementsByTagName('img')[0];
         let imgSrc = cardImg.getAttributeNode('src').value;
         let imgAlt = cardImg.getAttributeNode('alt').value;
@@ -17,7 +17,7 @@ for (let card of cards) {
     })
 };
 
-document.querySelector('.modal_close').addEventListener('click', function(){
+document.querySelector('.modal_close').addEventListener('click', function () {
 
     modalOverlay.classList.remove('active');
 });
