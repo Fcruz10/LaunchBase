@@ -27,7 +27,7 @@ header {
 }
 
 .links a {
-    margin: 30px;
+    margin: 20px;
     /*Extra*/
     color: #000000;
     font-size: 20px;
@@ -45,7 +45,7 @@ header {
 
 .wrapper {
     text-align: center;
-    padding: 20px 0;
+    padding: 0px auto;
 }
 
 .wrapper img {

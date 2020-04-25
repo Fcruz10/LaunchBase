@@ -44,7 +44,7 @@ header {
 
 .wrapper {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .wrapper img {
@@ -70,7 +70,7 @@ header {
 }
 
 .wrapper h2 {
-    margin: 32px auto;
+    margin: 33px auto;
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
@@ -139,12 +139,12 @@ div#links-footer {
     height: 72px;
     background-color: black;
     border-radius: 30px;
-    margin: 5px 20px;
+    margin: -5px 20px;
 }
 
 .cards {
     max-width: 87%;
-    margin: 10px auto 30px;
+    margin: 10px auto 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 8%;
