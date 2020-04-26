@@ -1,0 +1,29 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+    <title>About - Rocketseat</title>
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="wrapper">
+
+        <img src="{{ about.logo_url }}" alt='{{ about.name }} Logo'>
+
+        <h1>{{ about.name }}</h1>
+
+        <h2>{{ about.description }}</h2>
+
+        <p>{{ about.method }}</p>
+
+        <div>
+            <p class="stack">Nodejs</p>
+            <p class="stack">Reactjs</p>
+            <p class="stack">React Native</p>
+        </div>
+
+    </div>
+
+{% endblock %}
