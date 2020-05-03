@@ -13,8 +13,24 @@ if (menCanRetire || womenCanRetire) {
 } else {
     console.log(` ${name}, can't retire! `)
 }
+/*
+
+======== OR =========
  
-/* OU
+const name = 'Silvina';
+const sex = 'F';
+const age = 48;
+const contribution = 23;
+
+const calculationRetirement = age + contribution
+
+const menCanRetire = sex == 'M' && contribution >= 35 && calculationRetirement >= 95
+const womenCanRetire = sex == 'F' && contribution >= 30 && calculationRetirement >= 85
+
+
+(menCanRetire || womenCanRetire) ? console.log(` ${name}, can retire `) : console.log(` ${name}, can't retire `)
+
+======== OR =========
 
 For more people
 

@@ -1,3 +1,4 @@
+
 const name = 'Carlos';
 const weight = 84;
 const height = 1.88;
@@ -16,7 +17,16 @@ console.log(message)
 
 
 /*
-OU 
+======== OR =========
+const name = 'Carlos';
+const weight = 84;
+const height = 1.88;
+
+const imc = weight / (height * height);
+
+(imc >= 30) ? console.log(` ${name} is overweight.`) : console.log(` ${name} isn't overweight.`)
+
+======== OR =========
 
 For more people
 

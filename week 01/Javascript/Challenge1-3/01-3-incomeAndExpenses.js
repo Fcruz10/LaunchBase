@@ -20,7 +20,7 @@ function sumNumbers(numbers) {
     let sum = 0;
 
     for (number of numbers) {
-        sum = sum + number
+        sum = sum + number //or sum += number
     }
     return sum
 };
