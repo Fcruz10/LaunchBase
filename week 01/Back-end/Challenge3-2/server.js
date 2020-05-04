@@ -18,8 +18,8 @@ server.get("/", function (req, res) {
     const about = {
         logo_url: "https://cdn-images-1.medium.com/max/1200/1*TkXVfLTwsHdwpUEjGzdi9w.jpeg",
         name: '<a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>',
-        description: "Transforme sua carreira e seja um programador desejado no mercado, dominando as ferramentas mais modernas de desenvolvimento web e mobile.",
-        method: "Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobile para quem não tem tempo a perder.",
+        description: "Transform your career and be a desired programmer in the market, mastering the most modern web and mobile development tools.",
+        method: "Immersive training in the most modern web and mobile development technologies for those who have no time to waste.",
         links: [
             { name: "Github", url: "https://github.com/Rocketseat" },
             { name: "Facebook", url: "https://www.facebook.com/rocketseat" },

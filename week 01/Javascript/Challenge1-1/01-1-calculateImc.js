@@ -15,6 +15,7 @@ if (imc >= 30) {
 
 console.log(message)
 
+//Carlos isn't overweight.
 
 /*
 ======== OR =========
@@ -33,14 +34,14 @@ For more people
 const people = [
     {
         name: 'Carlos',
-        weight: 184,
+        weight: 84,
         height: 1.88
     },
 
     {
         name: 'Afonso',
-        weight: 84,
-        height: 1.88
+        weight: 100,
+        height: 1.68
     }
 ];
 
@@ -55,4 +56,7 @@ for (let user of people) {
         message = ` ${user.name} isn't weight.`
     }
     console.log(message)
+    
+    //Carlos isn't overweight.
+    //Afonso is overweight.
 }; */

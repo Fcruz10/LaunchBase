@@ -9,3 +9,5 @@ const user = {
 };
 
 console.log(` The user ${user.name} has ${user.age} years and uses ${user.property[0].name} technology in ${user.property[0].specialty} `);
+
+// The user Carlos has 32 years and uses C++ technology in Desktop

@@ -8,7 +8,7 @@ const data = {
             { name: 'JavaScript', specialty: 'Web/Mobile' }
         ]
     },
-
+    
     company: {
         name: 'Rocketseat',
         color: 'Roxo',
@@ -25,3 +25,9 @@ console.log(` The user's name is ${data.user.name}`);
 console.log(` The user ${data.user.name} has ${data.user.age} years 
 and uses ${data.user.technologies[0].name} technology with specialty
 in ${data.user.technologies[0].specialty} `);
+
+// The company Diego is located in Rua Guilherme Gembala, 260
+// The user's name is Diego
+// The user Diego has 32 years
+// and uses C++ technology with specialty
+// in Desktop

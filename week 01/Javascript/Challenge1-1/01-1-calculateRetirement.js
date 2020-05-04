@@ -13,6 +13,8 @@ if (menCanRetire || womenCanRetire) {
 } else {
     console.log(` ${name}, can't retire! `)
 }
+
+//Silvina, can't retire!
 /*
 
 ======== OR =========
@@ -73,4 +75,9 @@ for (let user of people) {
     } else {
         console.log(` ${user.name} can't retire! `)
     }
+
+    // Silvina, can't retire!
+    // Carlos, can't retire!
+    // Madalena, can retire!
+    // Pedro, can retire!
 }; */

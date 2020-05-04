@@ -89,6 +89,10 @@ body {
     grid-row-gap: 30px;
 }
 
+.card {
+    cursor: pointer;
+}
+
 .card_img-container {
     margin-bottom: 20px;
 }

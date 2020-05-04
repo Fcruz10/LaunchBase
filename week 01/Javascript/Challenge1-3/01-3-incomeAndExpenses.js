@@ -41,3 +41,7 @@ for (user of users) {
         console.log(` ${user.name} has NEGATIVE balance of ${balance.toFixed(2)}`)
     }
 };
+
+// Salvio has POSITIVE balance of 158.10
+// Marcio has NEGATIVE balance of - 33.20
+// Lucia has POSITIVE balance of 35.50
