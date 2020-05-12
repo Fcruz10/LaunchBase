@@ -57,6 +57,10 @@ The repository is separated by week, within each week the files are created with
   <a href="#Challenge3-3">Challenge 3-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+<h4 align="center">
+  <a href="#RefactoringFoodfy">Refactoring Foodfy</a>
+</h4>
+
 ## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Challenges1)
 
 <a id="Challenge1-1"></a>
@@ -115,8 +119,28 @@ The repository is separated by week, within each week the files are created with
 - Challenge 3-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-3-pagina-descricao-curso.md)
     - Dynamic Course Description Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Back-end/Challenge3-3)
     
+ ## Refactoring Foodfy - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy%20Back-end)
+
+<a id="RefactoringFoodfy"></a>
+- Script for this challenge - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03)
+    - Foodfy site - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy%20Back-end)
+    
 <!--
-<h1 align=center id="week02"> Week 02 </h1>
+    <br />
+ <h1 align=center id="week02"> Week 02 </h1>
+
+<p align="center">
+  <a href="#Challenge1-1">Challenge 1-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge1-2">Challenge 1-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge1-3">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge1-4">Challenge 1-4</a>
+</p>
+
+<p align="center">
+  <a href="#Challenge2-1">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge2-2">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 -->
 
 ### Update
