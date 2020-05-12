@@ -1,0 +1,31 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://www.google.com",
+      "name": "Francisco",
+      "birth": 1538870400000,
+      "educationLevel": "DrP",
+      "classType": "R",
+      "create_at": 1588994722849
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://www.google.com",
+      "name": "Catarina",
+      "birth": 1449705600000,
+      "educationLevel": "M",
+      "classType": "R",
+      "create_at": 1588994749702
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://www.google.com",
+      "name": "Francisco",
+      "birth": 1588291200000,
+      "educationLevel": "DrP",
+      "classType": "R",
+      "create_at": 1589291942517
+    }
+  ]
+}
