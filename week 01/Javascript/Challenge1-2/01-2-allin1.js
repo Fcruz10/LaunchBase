@@ -17,7 +17,7 @@ const data = {
     }
 };
 
-console.log(` The company ${data.user.name} is located in ${data.company.address.join(', ')} `);
+console.log(` The company ${data.company.name} is located in ${data.company.address.join(', ')} `);
 
 
 console.log(` The user's name is ${data.user.name}`);
