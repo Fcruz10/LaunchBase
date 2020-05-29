@@ -62,69 +62,69 @@ The repository is separated by week, within each week the files are created with
   <a href="#RefactoringFoodfy">Refactoring Foodfy</a>
 </h4>
 
-## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Challenges1)
+## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Javascript)
 
 <a id="Challenge1-1"></a>
 - Challenge 1-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
-    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateImc.js)
-    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateRetirement.js)
+    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-1/01-1-calculateImc.js)
+    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-1/01-1-calculateRetirement.js)
     
 <a id="Challenge1-2"></a>
 - Challenge 1-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
-    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeCompanyData.js)
-    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeProgrammerData.js)
-    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-allin1.js)
+    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-2/01-2-storeCompanyData.js)
+    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-2/01-2-storeProgrammerData.js)
+    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-2/01-2-allin1.js)
     
 <a id="Challenge1-3"></a>
 - Challenge 1-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-usersAndTech.js)
-    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-searchTech.js)
-    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-incomeAndExpenses.js)
+    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-3/01-3-usersAndTech.js)
+    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-3/01-3-searchTech.js)
+    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-3/01-3-incomeAndExpenses.js)
     
 <a id="Challenge1-4"></a>    
 - Challenge 1-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
-    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-4/01-4-bankTransactions.js)
+    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week01/Javascript/Challenge1-4/01-4-bankTransactions.js)
  
-## Starting on Front-end - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end)
+## Starting on Front-end - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Front-end)
 
 <a id="Challenge2-1"></a>
 - Challenge 2-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
-    - Add Favicon and Stylize - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-1)
+    - Add Favicon and Stylize - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Front-end/Challenge2-1)
 
 <a id="Challenge2-2"></a>
 - Challenge 2-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
-    - Create page about Rocketseat - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-2)
+    - Create page about Rocketseat - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Front-end/Challenge2-2)
     
 <a id="Challenge2-3"></a>
 - Challenge 2-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
-    - Create Content and Modal Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Front-end/Challenge2-3)
+    - Create Content and Modal Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Front-end/Challenge2-3)
  
  
-## Building Foodfy - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy)
+## Building Foodfy - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Foodfy)
 
 <a id="BuildingFoodfy"></a>
 - Script for site - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-foodfy.md)
-    - Foodfy site - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy)
+    - Foodfy site - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Foodfy)
 
-## Starting on Back-end - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Back-end)
+## Starting on Back-end - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Back-end)
 
 <a id="Challenge3-1"></a>
 - Challenge 3-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
-    - First Server with Routes and Code Reuse - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Back-end/Challenge3-1)
+    - First Server with Routes and Code Reuse - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Back-end/Challenge3-1)
 
 <a id="Challenge3-2"></a>
 - Challenge 3-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
-    - Nunjucks files and dynamic data - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Back-end/Challenge3-2)
+    - Nunjucks files and dynamic data - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Back-end/Challenge3-2)
     
 <a id="Challenge3-3"></a>
 - Challenge 3-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-3-pagina-descricao-curso.md)
-    - Dynamic Course Description Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Back-end/Challenge3-3)
+    - Dynamic Course Description Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Back-end/Challenge3-3)
     
- ## Refactoring Foodfy - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy%20Back-end)
+ ## Refactoring Foodfy - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Foodfy%20Back-end)
 
 <a id="RefactoringFoodfy"></a>
 - Script for this challenge - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03)
-    - Foodfy site - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy%20Back-end)
+    - Foodfy site - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week01/Foodfy%20Back-end)
     
     <br />
  <h1 align=center id="week02"> Week 02 </h1>
@@ -143,28 +143,23 @@ The repository is separated by week, within each week the files are created with
 </p>
 -->
 
-## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Challenges1)
+## Gym Control - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite)
 
 <a id="Challenge4-1"></a>
-- Challenge 4-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
-    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateImc.js)
-    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateRetirement.js)
+- Challenge 4-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-1-header.md)
+    - Create Private Lessons Page - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-1)
     
 <a id="Challenge4-2"></a>
-- Challenge 4-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
-    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeCompanyData.js)
-    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeProgrammerData.js)
-    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-allin1.js)
+- Challenge 4-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-2-card-teacher.md)
+    - Create Teacher Card - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-2)
     
 <a id="Challenge4-3"></a>
-- Challenge 4-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
-    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-usersAndTech.js)
-    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-searchTech.js)
-    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-incomeAndExpenses.js)
-    
+- Challenge 4-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-3-form-and-routes-teacher.md)
+    - Create Teacher Card - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-3)
+   
 <a id="Challenge4-4"></a>    
-- Challenge 4-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
-    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-4/01-4-bankTransactions.js)
+- Challenge 4-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-4-show-edit-format-teacher.md)
+    - Show, Edit and Format Teacher Data - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-4)
 
 ### Update
 With each update this file will be updated with a possible resolution along with the links for the scripts.
