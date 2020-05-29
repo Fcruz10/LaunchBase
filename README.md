@@ -28,7 +28,8 @@ The repository is separated by week, within each week the files are created with
 <h1 align=center> Week </h1>
 <p align="center">
   <a href="#week01"> Week 01 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <!-- <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
+  <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!-- <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
   ...
 </p>
 <br />
@@ -125,23 +126,45 @@ The repository is separated by week, within each week the files are created with
 - Script for this challenge - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03)
     - Foodfy site - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Foodfy%20Back-end)
     
-<!--
     <br />
  <h1 align=center id="week02"> Week 02 </h1>
 
 <p align="center">
-  <a href="#Challenge1-1">Challenge 1-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge1-2">Challenge 1-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge1-3">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge1-4">Challenge 1-4</a>
+  <a href="#Challenge4-1">Challenge 4-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge4-2">Challenge 4-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge4-3">Challenge 4-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge4-4">Challenge 4-4</a>
 </p>
-
+<!--
 <p align="center">
   <a href="#Challenge2-1">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge2-2">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge2-3">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 -->
+
+## Intoduction to web Development - [Path](https://github.com/Fcruz10/LaunchBase/tree/master/week%2001/Challenges1)
+
+<a id="Challenge4-1"></a>
+- Challenge 4-1 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
+    - Calculate IMC - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateImc.js)
+    - Calculate Retirement - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-1/01-1-calculateRetirement.js)
+    
+<a id="Challenge4-2"></a>
+- Challenge 4-2 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
+    - Store Company Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeCompanyData.js)
+    - Store Programmer Data - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-storeProgrammerData.js)
+    - All in One - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-2/01-2-allin1.js)
+    
+<a id="Challenge4-3"></a>
+- Challenge 4-3 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
+    - Users and Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-usersAndTech.js)
+    - Search Tech - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-searchTech.js)
+    - Income and Expenses - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-3/01-3-incomeAndExpenses.js)
+    
+<a id="Challenge4-4"></a>    
+- Challenge 4-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
+    - Bank transactions - [Resolution](https://github.com/Fcruz10/LaunchBase/blob/master/week%2001/Challenges1/Challenge1-4/01-4-bankTransactions.js)
 
 ### Update
 With each update this file will be updated with a possible resolution along with the links for the scripts.
