@@ -133,7 +133,8 @@ The repository is separated by week, within each week the files are created with
   <a href="#Challenge4-1">Challenge 4-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge4-2">Challenge 4-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge4-3">Challenge 4-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge4-4">Challenge 4-4</a>
+  <a href="#Challenge4-4">Challenge 4-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge4-5">Challenge 4-5</a>
 </p>
 <!--
 <p align="center">
@@ -160,6 +161,10 @@ The repository is separated by week, within each week the files are created with
 <a id="Challenge4-4"></a>    
 - Challenge 4-4 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-4-show-edit-format-teacher.md)
     - Show, Edit and Format Teacher Data - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-4)
+    
+    <a id="Challenge4-5"></a>    
+- Challenge 4-5 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-5-put-delete-teacher.md)
+    - Create PUT and DELETE Method - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-5)
 
 ### Update
 With each update this file will be updated with a possible resolution along with the links for the scripts.
