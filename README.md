@@ -29,7 +29,7 @@ The repository is separated by week, within each week the files are created with
 <p align="center">
   <a href="#week01"> Week 01 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <!-- <a href="#week02"> Week 02 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
+  <!-- <a href="#week03"> Week 03 </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
   ...
 </p>
 <br />
@@ -134,7 +134,8 @@ The repository is separated by week, within each week the files are created with
   <a href="#Challenge4-2">Challenge 4-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge4-3">Challenge 4-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Challenge4-4">Challenge 4-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge4-5">Challenge 4-5</a>
+  <a href="#Challenge4-5">Challenge 4-5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Challenge4-6">Challenge 4-6</a>
 </p>
 <!--
 <p align="center">
@@ -165,6 +166,10 @@ The repository is separated by week, within each week the files are created with
     <a id="Challenge4-5"></a>    
 - Challenge 4-5 - [Details](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-5-put-delete-teacher.md)
     - Create PUT and DELETE Method - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-5)
+
+    <a id="Challenge4-6"></a>    
+- Challenge 4-6 - [Details](https://github.com/rocketseat-education/bootcamp-launchbase-desafios-04/blob/master/desafios/04-6-list-teachers.md)
+    - List of teachers using Table - [Resolution](https://github.com/Fcruz10/LaunchBase/tree/master/week02/PrivLessonSite/Challenge4-6)
 
 ### Update
 With each update this file will be updated with a possible resolution along with the links for the scripts.
