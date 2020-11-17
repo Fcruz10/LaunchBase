@@ -1,0 +1,34 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.pexels.com/photos/3932263/pexels-photo-3932263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Francisco",
+      "birth": 970704000000,
+      "educationLevel": "HE",
+      "classType": "R",
+      "subjects": "Math, Physic, Science, Programming",
+      "created_at": 1590687990455
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Catarina",
+      "birth": 870739200000,
+      "educationLevel": "HE",
+      "classType": "P",
+      "subjects": "Science, French",
+      "created_at": 1590688157332
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://images.pexels.com/photos/3822773/pexels-photo-3822773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+      "name": "Inês",
+      "birth": 676771200000,
+      "educationLevel": "HS",
+      "classType": "P",
+      "subjects": "Gym, Athletics",
+      "created_at": 1590688423761
+    }
+  ]
+}
