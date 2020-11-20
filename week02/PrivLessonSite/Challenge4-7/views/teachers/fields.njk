@@ -1,0 +1,84 @@
+<div class="item">
+            <div>Avatar URL</div>
+            <div>
+                <input type="url" name="avatar_url" placeholder="http://" value="{{teacher.avatar_url}}">
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Teacher</div>
+            <div>
+                <input type="text" name="name" placeholder="Teacher's name" value="{{teacher.name}}">
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Date of Birth</div>
+            <div>
+                <input type="date" name="birth" value="{{ teacher.birth }}">
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Educational Level</div>
+            <div>
+                <select name="educationLevel">
+                    <option 
+                        value="HS" 
+                        {% if teacher.educationLevel == 'HS' %} 
+                            selected
+                        {% endif %}>High School Complete
+                    </option>
+
+                    <option 
+                        value="HE"
+                        {% if teacher.educationLevel == 'HE' %} 
+                            selected
+                        {% endif %}>Higher Education Complete</option>
+                    
+                    <option 
+                        value="MP"
+                        {% if teacher.educationLevel == 'MP' %} 
+                            selected
+                        {% endif %}>Master's or Ph.D.</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Class Type</div>
+            <div>
+                <span>
+                <input 
+                    type="radio" 
+                    name="classType" 
+                    value="R"
+                    {% if teacher.classType == 'R' %}
+                        checked
+                    {% endif %}>Remote
+                </span>
+
+                <span>
+                    <input
+                    type="radio" 
+                    name="classType" 
+                    value="P"
+                    {% if teacher.classType == 'P' %}
+                        checked
+                    {% endif %}>Presential
+                </span>
+            </div>
+        </div>  
+
+        <div class="item">
+            <div>Subjects</div>
+            <div>
+                <input 
+                    type="text" 
+                    name="subjects" 
+                    placeholder="Separate the taught subjects by a comma" 
+                    value ="{{teacher.subjects}}">
+            </div>
+        </div>
+
+        <button type="submit" id="save">Save</button>
