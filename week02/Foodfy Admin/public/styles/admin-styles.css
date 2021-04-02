@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header,
+main {
+    margin: 36px 230px 0px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 0;
+
+    background-color: black;
+  }
+
+.links a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.links img {
+    display: flex;
+    width: 91px;
+    height: 27px;
+    margin-left: 231px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

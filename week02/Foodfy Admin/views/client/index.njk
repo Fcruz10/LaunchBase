@@ -1,0 +1,60 @@
+{% extends 'client/layout.njk' %}
+
+{% block head %}
+
+    <title>Foodfy</title>
+
+{% endblock %}
+
+
+{% block content %}
+
+
+    <main>
+
+        <div class="container">
+
+            <div class="container_text">
+                <h1>The Best Recipes</h1>
+                <p>Learn how to build the best dishes with recipes created by professionals from all over the world.</p>
+
+            </div>
+
+            <div class="container_img">
+                <img src="./assets/chef.png" alt="Chef">
+            </div>
+        </div>
+
+        <div class="cards_title">
+            <h1>Most Accessed</h1>
+        </div>
+
+        <section class="cards">
+
+            {% set i = recipes.length if recipes.length <= 6 %}
+            {% if i < 7 %}
+                {% for recipe in recipes %}
+                    <div class="card">
+                        <div class="card_img-container">
+                            <img src="{{recipe.image}}" alt="">
+                        </div>
+
+                        <div class="card_text-container">
+                            <div class="card_title">
+                                <h1>{{recipe.title}}</h1>
+                            </div>
+
+                            <div class="card_author">
+                                <p>By {{recipe.author}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+        </section>
+    </main>
+
+    <script src="/scripts.js"></script>
+
+{% endblock %}

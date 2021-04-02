@@ -1,0 +1,47 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Students - Edit</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<div class="card">
+
+    <section class="avatar"
+        style="background: url({{student.avatar_url}}) no-repeat center center / cover">
+    </section>
+
+    <section class="details">
+
+        <form method="POST" action="/students?_method=PUT">
+
+            <h3>Edit Student</h3>
+            
+            {% include 'students/fields.njk' %}
+
+            <input type="hidden" name="id" value={{student.id}}>
+    
+        </form>
+
+        <form id="delete" method="POST" action="/students?_method=DELETE">
+
+            <input type="hidden" name="id" value={{student.id}}>
+
+            <button type="submit" id="form-delete">
+                <p>Delete</p>
+                <span class="material-icons">delete</span>
+            </button>       
+
+        </form>
+
+        {% include 'students/confirm.njk'%}
+
+    </section>
+</div>
+
+
+{% endblock %}

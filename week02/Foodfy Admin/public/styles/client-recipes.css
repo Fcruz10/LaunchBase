@@ -1,0 +1,55 @@
+.cards {
+    margin:50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+#recipes_cards {
+    margin: 50px 230px;
+
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card_img-container {
+    margin-bottom: 20px;
+}
+
+.card_img-container img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.card_title {
+    font-size: 18px;
+    line-height: 21px;
+    color: #111111;
+    margin-bottom: 5px;
+}
+
+.card_author {
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+}
+
+footer {
+    background: #EEEEEE;
+    height: 62px;
+    position: relative;
+    bottom:0;
+}
+
+footer p {
+    position: absolute;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin: 23px 566px;
+}
