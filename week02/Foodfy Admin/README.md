@@ -28,6 +28,8 @@
 
 ## :rocket: Desafios
 
+https://github.com/rocketseat-education/bootcamp-launchbase-desafios-04/blob/master/desafios/04-admin-foodfy.md
+
 - [Header](desafios/04-1-header.md)
 - [Card do Professor](desafios/04-2-card-teacher.md)
 - [Formulário e Rota de cadastro do Professor](desafios/04-3-form-and-routes-teacher.md)
