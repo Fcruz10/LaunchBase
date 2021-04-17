@@ -1,36 +1,92 @@
 .cards {
     margin:50px 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
     grid-row-gap: 30px;
 }
 
-#recipes_cards {
-    margin: 50px 230px;
-
-}
-
-.card_img-container {
-    margin-bottom: 20px;
+.card {
+    display: flex;
+    height: 80px;
 }
 
 .card_img-container img {
-    width: 300px;
-    height: 140px;
-    border-radius: 15px;
+    width: 172px;
+    height: 80px;
+    border-radius: 8.57px;
     object-fit: cover;
 }
 
-.card_title {
+.card_text-container {
+    display: grid;
+    margin-left: 20px;
+}
+
+.card_title h1 {
     font-size: 18px;
-    line-height: 21px;
     color: #111111;
+}
+
+.card_author p {
+    font-size: 14px;
+    color: #777777;
     margin-bottom: 5px;
 }
 
-.card_author {
+.card_link a {
     font-size: 14px;
-    line-height: 16px;
-    color: #777777;
+    color: #6558C3;
+    text-decoration: none;
+    transition: 2000ms;
+    padding: 4px 14px;
 }
+
+.card_link a:hover {
+    font-weight: bold;
+    transition: 200ms;
+}
+
+/* Bounce To Right */
+.card_link a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .card_link a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 88, 195, 0.2);
+    border-radius: 5px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .card_link a:hover, .card_link a:focus, .card_link a:active {
+    color: #6558C3;
+  }
+  .card_link a:hover:before, .card_link a:focus:before, .card_link a:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  }
