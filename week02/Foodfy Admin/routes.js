@@ -11,7 +11,7 @@ routes
 
     .get('/admin/recipes', admin.index) //index
     // .get('/admin/recipes/create', recipes.create)
-    // .get('/admin/recipes/:id', recipes.show) //single
+    .get('/admin/recipes/:id', admin.show) //single
     // .get('/admin/recipes/:id/edit', recipes.edit)
 
     // .get('/admin/recipes', recipes.post)

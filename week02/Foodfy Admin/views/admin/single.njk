@@ -1,8 +1,9 @@
-{% extends 'client/layout.njk' %}
+{% extends 'admin/layout.njk' %}
 
 {% block head %}
 
     <title> {{ recipe.title }} - Foodfy</title>
+    <link rel="stylesheet" href="/styles/admin-single.css">
 
 {% endblock %}  
 
@@ -17,6 +18,16 @@
 
     <div class="wrapper">
 
+        <div class="wrapper-header">
+            <div class="title">
+                <h1>Recipe: {{ recipe.title}}</h1>
+            </div>
+
+            <div class="edit">
+                <a href="#">Edit Recipe</a>
+            </div>
+        </div>
+
         <div class="wrapper-image">
             <img src="{{ recipe.image }}" alt="">
         </div>
@@ -28,7 +39,6 @@
 
         <div class="wrapper-content">
             <h1>Ingredients</h1>
-            <a class="hide">Hide</a>
         
             <div class="info">
                 <ul>
@@ -41,20 +51,18 @@
 
         <div class="wrapper-content">
             <h1>Method of reparation</h1>
-            <a class="hide">Hide</a>
 
             <div class="info">
-                <p>
+                <ul>
                     {% for prepare in recipe.preparation %}
-                        <p>{{ prepare }}</p>
+                        <li>{{ prepare }}</li>
                     {% endfor %}
-                </p>
+                </ul>
             </div>
         </div>
 
         <div class="wrapper-content">
             <h1>Additional Information</h1>
-            <a class="hide">Hide</a>
 
             <div class="info">
                 <p>{{ recipe.information }}</p>
