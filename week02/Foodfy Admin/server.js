@@ -1,13 +1,17 @@
 const express = require('express');
 const nunjucks = require('nunjucks');
 const routes = require('./routes');
+const methodOverride = require('method-override');
 
 const server = express();
 
-server.use(express.static('public'));
-server.use(routes);
+server
+    .use(express.static('public'))
+    .use(express.urlencoded({ extends: true }))
+    .use(methodOverride('_method'))
+    .use(routes)
 
-server.set('view engine', 'njk');
+    .set('view engine', 'njk')
 
 nunjucks.configure('views', {
     express: server,
