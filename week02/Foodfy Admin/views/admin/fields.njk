@@ -1,0 +1,54 @@
+    <div class="wrapper">
+
+        <div class="wrapper-header">
+            <div class="title">
+                <h1>Recipe: {{ recipe.title}}</h1>
+            </div>
+
+            <div class="edit">
+                <a href="#">Edit Recipe</a>
+            </div>
+        </div>
+
+        <div class="wrapper-image">
+            <img src="{{ recipe.image }}" alt="">
+        </div>
+
+        <div class="wrapper-title">
+            <h1>{{ recipe.title }}</h1>
+            <p>By {{ recipe.author }}</p>
+        </div>
+
+        <div class="wrapper-content">
+            <h1>Ingredients</h1>
+        
+            <div class="info">
+                <ul>
+                    {% for list in recipe.ingredients %}
+                        <li>{{ list }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="wrapper-content">
+            <h1>Method of reparation</h1>
+
+            <div class="info">
+                <ul>
+                    {% for prepare in recipe.preparation %}
+                        <li>{{ prepare }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="wrapper-content">
+            <h1>Additional Information</h1>
+
+            <div class="info">
+                <p>{{ recipe.information }}</p>
+            </div>
+        </div>
+
+    </div>

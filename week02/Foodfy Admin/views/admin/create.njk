@@ -1,0 +1,34 @@
+{% extends 'admin/layout.njk' %}
+
+{% block head %}
+
+    <title> {{ recipe.title }} - Foodfy</title>
+    <link rel="stylesheet" href="/styles/admin-single.css">
+
+{% endblock %}  
+
+{% block page %}
+
+    <a href="/about">About</a>
+    <a href="/recipes"><b>Recipes</b></a>
+
+{% endblock %}
+
+{% block content %}
+
+    <form class="wrapper" method="POST" action="/admin/recipes">
+        <section class="recipeImage"
+            style="background: url(https://unsplash.com/collections/4466406/900x900) no-repeat center center / cover">
+        </section>
+
+        <section class="details">
+            <h3>New Recipe</h3>
+
+            {% include 'admin/fields.njk' %}
+        </section>
+    
+    </form>
+
+    <script src="/scripts.js"></script>
+    
+{% endblock %}

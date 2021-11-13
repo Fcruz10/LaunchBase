@@ -7,7 +7,7 @@ const server = express();
 
 server
     .use(express.static('public'))
-    .use(express.urlencoded({ extends: true }))
+    .use(express.urlencoded({ extended: true }))
     .use(methodOverride('_method'))
     .use(routes)
 
