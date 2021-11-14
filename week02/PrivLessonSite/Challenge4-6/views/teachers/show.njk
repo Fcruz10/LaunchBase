@@ -14,43 +14,43 @@
 
     <section class="details">
 
-    <h3>Details</h3>
-    
-    <div class="item">
-        <div>Teacher</div>
-        <div>{{teacher.name}}</div>
-    </div>
-
-    <div class="item">
-        <div>Age</div>
-        <div>{{teacher.age}}</div>
-    </div>
-
-    <div class="item">
-        <div>Educational Level</div>
-        <div>{{teacher.graduation}}</div>
-    </div>
-
-    <div class="item">
-        <div>Class Type</div>
-        <div>{{ "Remote" if teacher.classType == "R" else "Presential" }}</div>
-    </div>
-
-    <div class="item">
-        <div>Subjects</div>
-        <div>
-            {% for subject in teacher.subjects %}
-                <span>{{subject}}</span>
-            {% endfor %}
+        <h3>Details</h3>
+        
+        <div class="item">
+            <div>Teacher</div>
+            <div>{{teacher.name}}</div>
         </div>
-    </div>
 
-    <div class="item">
-        <div>Since</div>
-        <div>{{teacher.created_at}}</div>
-    </div>
+        <div class="item">
+            <div>Age</div>
+            <div>{{teacher.age}}</div>
+        </div>
 
-    <a href="/teachers/{{ teacher.id }}/edit" class="button">Edit</a>
+        <div class="item">
+            <div>Educational Level</div>
+            <div>{{teacher.graduation}}</div>
+        </div>
+
+        <div class="item">
+            <div>Class Type</div>
+            <div>{{ "Remote" if teacher.classType == "R" else "Presential" }}</div>
+        </div>
+
+        <div class="item">
+            <div>Subjects</div>
+            <div>
+                {% for subject in teacher.subjects %}
+                    <span>{{subject}}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Since</div>
+            <div>{{teacher.created_at}}</div>
+        </div>
+
+        <a href="/teachers/{{ teacher.id }}/edit" class="button">Edit</a>
     
     </section>
 
