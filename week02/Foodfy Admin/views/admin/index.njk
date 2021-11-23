@@ -14,8 +14,14 @@
 
     <main>
 
-        <div class="cards_title">
-            <h1>Manage Recipes</h1>
+        <div class="wrapper-header">
+            <div class="cards_title">
+                <h1>Manage Recipes</h1>
+            </div>
+
+            <div class="createButton">
+                <a href="/admin/recipes/create">Create new recipe</a>
+            </div>
         </div>
 
         <section class="cards">
@@ -43,9 +49,11 @@
                         </div>
                     </div>
                 {% endfor %}
+                
             {% endif %}
 
         </section>
+
     </main>
 
 {% endblock %}

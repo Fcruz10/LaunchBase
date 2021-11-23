@@ -61,6 +61,7 @@ exports.post = (req, res) => {
         return res.redirect("teachers")
     });
 };
+
 //edit
 exports.edit = (req, res) => {
 

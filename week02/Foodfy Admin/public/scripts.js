@@ -21,3 +21,22 @@ for (let button of content) {
         }
     })
 };
+
+function addIngredient() {
+    const ingredients = document.querySelector("#ingredients");
+    const fieldContainer = document.querySelectorAll(".ingredient");
+  
+    // Clone of las ingredient added
+    const newField = fieldContainer[fieldContainer.length - 1].cloneNode(true);
+  
+    // Doesn't add a new input if the last is empty
+    if (newField.children[0].value == "") return false;
+  
+    // Makes the input value empty
+    newField.children[0].value = "";
+    ingredients.appendChild(newField);
+  }
+  
+  document
+    .querySelector(".add-ingredient")
+    .addEventListener("click", addIngredient);

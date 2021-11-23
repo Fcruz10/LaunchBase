@@ -1,0 +1,146 @@
+.wrapper {
+    margin-top: 50px;
+    background-color: white;
+    width: 60%;
+    min-height: 600px;
+    margin: 48px auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.4);
+    animation: up 700ms ease;    
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.details h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+
+.wrapper-form {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-form .item {
+    margin-bottom: 2rem;
+}
+
+.wrapper-form .item div:first-child {
+    font-size: 1rem;
+    margin-bottom: .8rem;
+}
+
+.wrapper-form .item div:nth-child(2) input{
+    outline: none;
+    width: 90%;
+    border-bottom: 1px solid #AAA;
+    padding: .1rem;
+}
+
+.wrapper-form .item #ingredients .ingredient {
+    margin-bottom: .8rem;
+}
+
+
+/* ADD INGREDIENT BUTTON */
+.wrapper-form .item .add-ingredient {
+  background-color: initial;
+  color: #fff;
+  cursor: pointer;
+  font-size: .5rem;
+  font-weight: 600;
+  padding: .4rem 1rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .add-ingredient {
+    padding: 19px 32px;
+  }
+}
+
+.add-ingredient:before,
+.add-ingredient:after {
+  border-radius: 80px;
+}
+
+.add-ingredient:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.add-ingredient:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.add-ingredient:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.add-ingredient:active:not(:disabled) {
+  color: #ccc;
+}
+
+.add-ingredient:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.add-ingredient:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+/* 
+    Edit Page
+    Client feed by admin info -> data.json
+*/

@@ -7,7 +7,7 @@ exports.index = (req,res) => {
     return res.render('teachers/index', { teachers: data.teachers })
 }
 
-exports.create  = (req, res) => res.render('teachers/create')
+exports.create  = (req, res) => res.render('teachers/create');
 
 exports.post = (req, res) => {
     const keys = Object.keys(req.body)

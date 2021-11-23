@@ -23,6 +23,13 @@
     margin-left: 20px;
 }
 
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
 .card_title h1 {
     font-size: 18px;
     color: #111111;
@@ -38,7 +45,7 @@
     font-size: 14px;
     color: #6558C3;
     text-decoration: none;
-    transition: 2000ms;
+    transition: 200ms;
     padding: 2px 14px;
 }
 
@@ -77,9 +84,34 @@
   .card_link a:hover, .card_link a:focus, .card_link a:active {
     color: #6558C3;
   }
-  .card_link a:hover:before, .card_link a:focus:before, .card_link a:active:before {
+  .card_link a:hover:before, .card_link a:focus:before,
+  .card_link a:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   }
+
+/*======= CREATE BUTTON ==========*/
+
+.createButton {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-header .createButton a {
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    transition: 200ms;
+    padding: 9px 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #6558C3;
+    margin-right: 17.7rem;
+}
+
+.wrapper-header .createButton a:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}

@@ -9,15 +9,16 @@ routes
     .get('/recipes', client.recipes)
     .get('/recipes/:id', client.show)
 
-    .get('/admin/recipes', admin.index)
-    .get('/admin/recipes/create', (req, res) => {
-        return res.render('admin/create')
+    .get('/admin', (req, res) => {
+        return res.redirect('/admin/recipes')
     })
+    .get('/admin/recipes', admin.index)
+    .get('/admin/recipes/create', admin.create)
     .get('/admin/recipes/:id', admin.show)
-    // .get('/admin/recipes/:id/edit', recipes.edit)
+    .get('/admin/recipes/:id/edit', admin.edit)
 
-    .get('/admin/recipes', admin.post)
-    .get('/admin/recipes', admin.put)
-    .get('/admin/recipes', admin.delete);
+    .post('/admin/recipes', admin.post)
+    .put('/admin/recipes', admin.put)
+    .delete('/admin/recipes', admin.delete);
 
 module.exports = routes;

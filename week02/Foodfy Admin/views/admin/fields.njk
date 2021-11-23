@@ -1,54 +1,52 @@
-    <div class="wrapper">
+<div class="wrapper-form">
 
-        <div class="wrapper-header">
-            <div class="title">
-                <h1>Recipe: {{ recipe.title}}</h1>
-            </div>
-
-            <div class="edit">
-                <a href="#">Edit Recipe</a>
-            </div>
+    <div class="item">
+        <div>Recipe Image URL</div>
+        <div>
+            <input type="url" name="recipe_url" placeholder="http://" value="{{recipe.image}}">
         </div>
-
-        <div class="wrapper-image">
-            <img src="{{ recipe.image }}" alt="">
-        </div>
-
-        <div class="wrapper-title">
-            <h1>{{ recipe.title }}</h1>
-            <p>By {{ recipe.author }}</p>
-        </div>
-
-        <div class="wrapper-content">
-            <h1>Ingredients</h1>
-        
-            <div class="info">
-                <ul>
-                    {% for list in recipe.ingredients %}
-                        <li>{{ list }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-
-        <div class="wrapper-content">
-            <h1>Method of reparation</h1>
-
-            <div class="info">
-                <ul>
-                    {% for prepare in recipe.preparation %}
-                        <li>{{ prepare }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-
-        <div class="wrapper-content">
-            <h1>Additional Information</h1>
-
-            <div class="info">
-                <p>{{ recipe.information }}</p>
-            </div>
-        </div>
-
     </div>
+
+    <div class="item">
+        <div>Recipe's Title</div>
+        <div>
+            <input type="text" name="name" placeholder="Recipe's title" value="{{recipe.title}}">
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Recipe's Author</div>
+        <div>
+            <input type="text" name="name" placeholder="Recipe's author" value="{{recipe.author}}">
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Ingredients</div>
+
+        <div id="ingredients">
+            <div class="ingredient">
+                <input type="text" name="ingredients[]" value="" placeholder="Ingredient" />
+            </div>
+        </div>
+        <button type="button" onClick="addIngredient()" class="add-ingredient"
+        role="button">Add Ingredient</button>
+    </div>
+
+    <div class="item">
+        <div>Method of Preparation</div>
+        <div>
+            <input type="text" name="name" placeholder="Method of preparation" value="{{recipe.preparation}}">
+        </div>
+    </div>
+
+    <div class="item">
+        <div>Additional Information</div>
+        <div>
+            <input type="text" name="name" placeholder="Additional information" value="{{recipe.information}}">
+        </div>
+    </div>
+
+    <button type="submit" id="save">Save</button>
+
+</div>

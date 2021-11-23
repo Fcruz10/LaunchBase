@@ -140,10 +140,11 @@
       "information": ""
     },
     {
-      "id": 7
-    },
-    {
-      "id": 8
+      "id": 7,
+      "ingredients": [
+        "200g Potatos",
+        "1000 ml water"
+      ]
     }
   ]
 }
